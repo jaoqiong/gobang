@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+.clear-float:after{
+    content:'.';
+    display:block;
+    width:0;
+    height:0;
+    visibility:hidden;
+    clear:both;
+}
+#board-skin{
+    text-align: center;
+}
+#board-membrane{
+    display:inline-block;
+    border:1px solid black;
+    border-radius: 5px;
+}
+#board{
+    float:left;
+}
+td{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.td-style{
+    width:50px;
+    height: 50px;
+    cursor: pointer;
+}
